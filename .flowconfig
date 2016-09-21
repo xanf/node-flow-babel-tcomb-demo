@@ -1,0 +1,8 @@
+[ignore]
+.*/node_modules/bcryptjs/src/bower.json
+
+[include]
+
+[libs]
+
+[options]

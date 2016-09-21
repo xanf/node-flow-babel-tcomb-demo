@@ -1,0 +1,40 @@
+{
+  "name": "project-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-syntax-flow": "^6.13.0",
+    "babel-plugin-tcomb": "^0.3.13",
+    "babel-plugin-transform-flow-strip-types": "^6.14.0",
+    "babel-preset-es2015-node6": "^0.3.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb-base": "^7.1.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^1.15.0",
+    "flow-bin": "^0.32.0",
+    "flow-typed": "^2.0.0-beta.8",
+    "jasmine": "^2.5.2",
+    "jasmine-promises": "^0.4.1",
+    "proxyquire": "^1.7.10",
+    "tcomb": "^3.2.13"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-jwt": "^5.0.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.1"
+  }
+}
